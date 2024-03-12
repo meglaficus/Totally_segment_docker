@@ -32,3 +32,5 @@ cd ../home/app
 python totally_segment.py
 exit
 ```
+-----------------------------------------------
+See <https://github.com/wasserth/TotalSegmentator> for more info
