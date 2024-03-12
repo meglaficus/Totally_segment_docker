@@ -1,15 +1,15 @@
-Building and running TotalSegmentator in Docker container
+## Building and running TotalSegmentator in Docker container
 
-0. (Optional) Edit first line of dockerfile if using AMD GPU
 1. Clone this repository
+  - (Optional) Edit first line of dockerfile if using AMD GPU
 2. Navigate to the repository directory
-3. Build docker container: 
+3. Build docker container
 
 ```
 docker build -t meglaficus/totally_segment .
 ```
 4. Have this kind of folder structure ready:
-
+```
 ├── files
 │   ├── CT
 │   │   ├── 00001.nii.gz
@@ -17,7 +17,7 @@ docker build -t meglaficus/totally_segment .
 │   │   ├── 00003.nii.gz
 │   │   ├── ...
 │   ├── TotalSeg
-
+```
 
 5. Run the container (change command to include path to "files" directory)
 
